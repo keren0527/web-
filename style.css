@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppings",sans-serif;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    /* justify-content: space-between; */
+    background:#3A5A40;
+    width: 100%;
+    top: 0;
+}
+.nav a {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  .nav .links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 450px;
+  }
+.nav .logo h4{
+    color: white;
+    padding: 10px 15px;
+    padding-left: 40px;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;    
+}
+.p{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url('./image/Benefits of Outsourced Accountancy Services for Small Business London.jfif');
+  background-size: cover;
+}
+.p h1 {
+    display: block;
+    font-size: 30px;
+    color:white;
+  }
+  
+  
